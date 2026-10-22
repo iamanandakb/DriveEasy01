@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Run Vehicle Rental App",
+            "request": "launch",
+            "mainClass": "com.rental.Main",
+            "vmArgs": "--enable-native-access=ALL-UNNAMED"
+        },
+        {
+            "type": "java",
+            "name": "Run Self Test (no GUI)",
+            "request": "launch",
+            "mainClass": "com.rental.SelfTest",
+            "vmArgs": "--enable-native-access=ALL-UNNAMED"
+        }
+    ]
+}
